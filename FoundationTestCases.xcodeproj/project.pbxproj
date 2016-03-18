@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2934E0EE1C9BE3F600254493 /* NSBundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2934E0ED1C9BE3F600254493 /* NSBundleTests.swift */; };
+		2934E0EF1C9BE53C00254493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956E0461C9BAAD50041DFA4 /* AppDelegate.swift */; };
 		2956E0471C9BAAD50041DFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956E0461C9BAAD50041DFA4 /* AppDelegate.swift */; };
 		2956E0491C9BAAD50041DFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2956E0481C9BAAD50041DFA4 /* Assets.xcassets */; };
 		2956E04C1C9BAAD50041DFA4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2956E04A1C9BAAD50041DFA4 /* MainMenu.xib */; };
@@ -24,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2934E0ED1C9BE3F600254493 /* NSBundleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSBundleTests.swift; sourceTree = "<group>"; };
 		2956E0431C9BAAD50041DFA4 /* FoundationTestCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationTestCases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2956E0461C9BAAD50041DFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2956E0481C9BAAD50041DFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				2956E0561C9BAAD50041DFA4 /* NSByteCountFormatterTests.swift */,
+				2934E0ED1C9BE3F600254493 /* NSBundleTests.swift */,
 				2956E0581C9BAAD50041DFA4 /* Info.plist */,
 			);
 			path = FoundationTestCasesTests;
@@ -198,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2934E0EF1C9BE53C00254493 /* AppDelegate.swift in Sources */,
+				2934E0EE1C9BE3F600254493 /* NSBundleTests.swift in Sources */,
 				2956E0571C9BAAD50041DFA4 /* NSByteCountFormatterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +381,7 @@
 				2956E05D1C9BAAD50041DFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2956E05E1C9BAAD50041DFA4 /* Build configuration list for PBXNativeTarget "FoundationTestCasesTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +390,7 @@
 				2956E0601C9BAAD50041DFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

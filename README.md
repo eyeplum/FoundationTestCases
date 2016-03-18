@@ -15,3 +15,5 @@ By doing this, we can be confident about what should (and shouldn't) happen when
 - [ ] `NSEnergyFormatter`
 - [ ] `NSLengthFormatter`
 - [ ] `NSMassFormatter`
+- [x] `NSBundle` _Partly_
+
