@@ -9,7 +9,7 @@ By doing this, we can be confident about what should (and shouldn't) happen when
 
 ## Classes to cover
 
-- [ ] `NSByteCountFormater`
+- [ ] `NSByteCountFormater` _Working in Progress_
 - [ ] `NSDateComponentsFormatter`
 - [ ] `NSDateIntervalFormatter`
 - [ ] `NSEnergyFormatter`
